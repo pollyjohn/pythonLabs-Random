@@ -1,3 +1,7 @@
+#  In this example the relation of aggregation stablished between the classes
+# are in the following order:  Class Notebook aggregates classes  Screen and Ram 
+# and class Notebook_choice aggregates class Notebook.
+
 class Notebook:
     def __init__(self):
         self._ram = []
